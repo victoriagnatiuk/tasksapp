@@ -1,0 +1,18 @@
+@base_url =  http://localhost:3000
+
+GET {{base_url}}/tasks
+
+###
+GET {{base_url}}/tasks/count
+
+###
+GET {{base_url}}/tasks/1
+
+###
+POST {{base_url}}/tasks
+
+###
+DELETE {{base_url}}/tasks/1
+
+###
+PUT {{base_url}}/tasks/1
