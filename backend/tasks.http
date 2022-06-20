@@ -1,18 +1,31 @@
 @base_url =  http://localhost:3000
 
+### GET ALL
 GET {{base_url}}/tasks
 
-###
+### COUNT
 GET {{base_url}}/tasks/count
 
-###
+### GET ONE
 GET {{base_url}}/tasks/1
 
-###
+### CREATE
 POST {{base_url}}/tasks
+Content-Type: application/json
 
-###
-DELETE {{base_url}}/tasks/1
+{
+    "title": "Third task",
+    "description": "Description of the third task"
+}
 
-###
-PUT {{base_url}}/tasks/1
+### DELETE
+DELETE {{base_url}}/tasks/7
+
+### UPDATE
+PUT {{base_url}}/tasks/7
+Content-Type: application/json
+
+{
+    "title": "Tarea",
+    "description": "Descripción tarea"
+}
