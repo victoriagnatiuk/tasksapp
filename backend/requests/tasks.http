@@ -19,10 +19,10 @@ Content-Type: application/json
 }
 
 ### DELETE
-DELETE {{base_url}}/tasks/7
+DELETE {{base_url}}/tasks/1
 
 ### UPDATE
-PUT {{base_url}}/tasks/7
+PUT {{base_url}}/tasks/6
 Content-Type: application/json
 
 {
